@@ -1,0 +1,5 @@
+C:\Users\ap250360\documents\visual studio 2013\Projects\CrudGestionContenido\CrudGestionContenido.Domain\obj\Debug\CrudGestionContenido.Domain.csprojResolveAssemblyReference.cache
+C:\Users\ap250360\documents\visual studio 2013\Projects\CrudGestionContenido\CrudGestionContenido.Domain\bin\Debug\CrudGestionContenido.Domain.dll
+C:\Users\ap250360\documents\visual studio 2013\Projects\CrudGestionContenido\CrudGestionContenido.Domain\bin\Debug\CrudGestionContenido.Domain.pdb
+C:\Users\ap250360\documents\visual studio 2013\Projects\CrudGestionContenido\CrudGestionContenido.Domain\obj\Debug\CrudGestionContenido.Domain.dll
+C:\Users\ap250360\documents\visual studio 2013\Projects\CrudGestionContenido\CrudGestionContenido.Domain\obj\Debug\CrudGestionContenido.Domain.pdb
