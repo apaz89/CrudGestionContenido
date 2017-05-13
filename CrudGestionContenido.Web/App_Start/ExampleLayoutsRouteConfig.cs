@@ -6,6 +6,7 @@ using System.Web.Mvc;
 using System.Web.Routing;
 using BootstrapMvcSample.Controllers;
 using NavigationRoutes;
+using CrudGestionContenido.Web.Controllers;
 
 namespace BootstrapMvcSample
 {
@@ -13,12 +14,12 @@ namespace BootstrapMvcSample
     {
         public static void RegisterRoutes(RouteCollection routes)
         {
-            routes.MapNavigationRoute<HomeController>("Automatic Scaffolding", c => c.Index());
+            //routes.MapNavigationRoute<HomeController>("Automatic Scaffolding", c => c.Index());
 
-            routes.MapNavigationRoute<ExampleLayoutsController>("Example Layouts", c => c.Starter())
-                  .AddChildRoute<ExampleLayoutsController>("Marketing", c => c.Marketing())
-                  .AddChildRoute<ExampleLayoutsController>("Fluid", c => c.Fluid())
-                  .AddChildRoute<ExampleLayoutsController>("Sign In", c => c.SignIn())
+            routes.MapNavigationRoute<ExampleLayoutsController>("Configuracion", c => c.Starter())
+                  .AddChildRoute<DepartamentosController>("Departamentos", c => c.Index())
+                  .AddChildRoute<EmpleadosController>("Empleados", c => c.Index())
+                //.AddChildRoute<ExampleLayoutsController>("Sign In", c => c.SignIn())
                 ;
         }
     }

@@ -33,7 +33,8 @@ namespace CrudGestionContenido.Data
 
         public void Archive<T>(T itemToArchive)
         {
-            throw new NotImplementedException();
+            _session.Delete(itemToArchive);
+            _session.Flush();
         }
 
     }

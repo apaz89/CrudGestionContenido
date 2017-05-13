@@ -10,5 +10,6 @@ namespace CrudGestionContenido.Domain
     {
         public virtual long Id { get; set; }
         public virtual string Nombre { get; set; }
+        public virtual IList<Empleado> Empleados { get; set; }
     }
 }

@@ -1,4 +1,3 @@
-C:\Users\ap250360\documents\visual studio 2013\Projects\CrudGestionContenido\CrudGesitonContenido.DatabaseDeployer\bin\Debug\CrudGesitonContenido.DatabaseDeployer.dll
 C:\Users\ap250360\documents\visual studio 2013\Projects\CrudGestionContenido\CrudGesitonContenido.DatabaseDeployer\bin\Debug\CrudGesitonContenido.DatabaseDeployer.pdb
 C:\Users\ap250360\documents\visual studio 2013\Projects\CrudGestionContenido\CrudGesitonContenido.DatabaseDeployer\bin\Debug\CrudGestionContenido.Domain.dll
 C:\Users\ap250360\documents\visual studio 2013\Projects\CrudGestionContenido\CrudGesitonContenido.DatabaseDeployer\bin\Debug\DomainDrivenDatabaseDeployer.dll
@@ -7,9 +6,7 @@ C:\Users\ap250360\documents\visual studio 2013\Projects\CrudGestionContenido\Cru
 C:\Users\ap250360\documents\visual studio 2013\Projects\CrudGestionContenido\CrudGesitonContenido.DatabaseDeployer\bin\Debug\CrudGestionContenido.Domain.pdb
 C:\Users\ap250360\documents\visual studio 2013\Projects\CrudGestionContenido\CrudGesitonContenido.DatabaseDeployer\bin\Debug\NHibernate.xml
 C:\Users\ap250360\documents\visual studio 2013\Projects\CrudGestionContenido\CrudGesitonContenido.DatabaseDeployer\obj\Debug\CrudGesitonContenido.DatabaseDeployer.csprojResolveAssemblyReference.cache
-C:\Users\ap250360\documents\visual studio 2013\Projects\CrudGestionContenido\CrudGesitonContenido.DatabaseDeployer\obj\Debug\CrudGesitonContenido.DatabaseDeployer.dll
 C:\Users\ap250360\documents\visual studio 2013\Projects\CrudGestionContenido\CrudGesitonContenido.DatabaseDeployer\obj\Debug\CrudGesitonContenido.DatabaseDeployer.pdb
-C:\Users\ap250360\documents\visual studio 2013\Projects\CrudGestionContenido\CrudGesitonContenido.DatabaseDeployer\bin\Debug\CrudGesitonContenido.DatabaseDeployer.dll.config
 C:\Users\ap250360\documents\visual studio 2013\Projects\CrudGestionContenido\CrudGesitonContenido.DatabaseDeployer\bin\Debug\AcklenAvenue.Data.dll
 C:\Users\ap250360\documents\visual studio 2013\Projects\CrudGestionContenido\CrudGesitonContenido.DatabaseDeployer\bin\Debug\AcklenAvenue.Data.NHibernate.dll
 C:\Users\ap250360\documents\visual studio 2013\Projects\CrudGestionContenido\CrudGesitonContenido.DatabaseDeployer\bin\Debug\CrudGestionContenido.Data.dll
@@ -18,3 +15,8 @@ C:\Users\ap250360\documents\visual studio 2013\Projects\CrudGestionContenido\Cru
 C:\Users\ap250360\documents\visual studio 2013\Projects\CrudGestionContenido\CrudGesitonContenido.DatabaseDeployer\bin\Debug\CrudGestionContenido.Data.pdb
 C:\Users\ap250360\documents\visual studio 2013\Projects\CrudGestionContenido\CrudGesitonContenido.DatabaseDeployer\bin\Debug\FluentNHibernate.xml
 C:\Users\ap250360\documents\visual studio 2013\Projects\CrudGestionContenido\CrudGesitonContenido.DatabaseDeployer\bin\Debug\Iesi.Collections.xml
+C:\Users\ap250360\Documents\Visual Studio 2013\Projects\CrudGestionContenido\CrudGesitonContenido.DatabaseDeployer\bin\Debug\CrudGesitonContenido.DatabaseDeployer.exe.config
+C:\Users\ap250360\Documents\Visual Studio 2013\Projects\CrudGestionContenido\CrudGesitonContenido.DatabaseDeployer\bin\Debug\CrudGesitonContenido.DatabaseDeployer.exe
+C:\Users\ap250360\Documents\Visual Studio 2013\Projects\CrudGestionContenido\CrudGesitonContenido.DatabaseDeployer\obj\Debug\CrudGesitonContenido.DatabaseDeployer.exe
+C:\Users\ap250360\Documents\Visual Studio 2013\Projects\CrudGestionContenido\CrudGesitonContenido.DatabaseDeployer\bin\Debug\App.config
+C:\Users\ap250360\Documents\Visual Studio 2013\Projects\CrudGestionContenido\CrudGesitonContenido.DatabaseDeployer\bin\Debug\local.config

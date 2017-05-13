@@ -11,9 +11,8 @@ namespace CrudGestionContenido.Domain
         public virtual long Id { get; set; }
         public virtual string Nombre { get; set; }
         public virtual string Apellido { get; set; }
-        public virtual string FechaNacimiento { get; set; }
+        public virtual DateTime FechaNacimiento { get; set; }
         public virtual float Sueldo { get; set; }
-        public virtual IList<Departamento> Departamentos { get; set; }
-               
+        public virtual float Departamento_id { get; set; }   
     }
 }

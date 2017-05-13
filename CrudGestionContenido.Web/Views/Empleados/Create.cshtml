@@ -1,0 +1,40 @@
+﻿@using BootstrapSupport
+@model CrudGestionContenido.Web.Models.EmpleadoModel
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true)
+    <fieldset class="form-horizontal">
+        <legend>@Model.GetLabel() <small>Details</small></legend>
+        @foreach (var property in Model.VisibleProperties())
+        {
+            using (Html.ControlGroupFor(property.Name))
+            {
+
+
+                if (property.Name == "Departamentos" || property.Name == "Departamento_Name")
+                {
+
+                    continue;
+                }
+                @Html.Label(property.Name.ToSeparatedWords(), new { @class = "control-label" })
+
+                if (property.Name == "Departamento_id")
+                {
+                    @Html.DropDownListFor(m => m.Departamento_id, new SelectList(Model.Departamentos, "Value", "Text"), "Select", new { @class = "control-label" })
+                    continue;
+                }
+                <div class="controls">
+                    @Html.Editor(property.Name, new { @class = "input-xlarge" })
+                    @Html.ValidationMessage(property.Name, null, new { @class = "help-inline" })
+                </div>
+            }
+        }
+        <div class="form-actions">
+            <button type="submit" class="btn btn-primary">Save changes</button>
+            @Html.ActionLink("Cancel", "Index", null, new { @class = "btn " })
+        </div>
+    </fieldset>
+}
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
