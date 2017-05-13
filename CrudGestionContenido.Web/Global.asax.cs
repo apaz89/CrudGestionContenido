@@ -63,8 +63,11 @@ namespace CrudGestionContenido.Web
         {
 
 
+            //MsSqlConfiguration databaseConfiguration = MsSqlConfiguration.MsSql2008.ShowSql().
+            //   ConnectionString(@"Data Source=WMXAP250360-BZC\SQLEXPRESS;Initial Catalog=CrudGestion;User ID=sa;Password=Hello/123");
+
             MsSqlConfiguration databaseConfiguration = MsSqlConfiguration.MsSql2008.ShowSql().
-               ConnectionString(@"Data Source=WMXAP250360-BZC\SQLEXPRESS;Initial Catalog=CrudGestion;User ID=sa;Password=Hello/123");
+               ConnectionString(@"Server=3f4d7894-b3bd-4bfa-a563-a772003bc6ec.sqlserver.sequelizer.com;Database=db3f4d7894b3bd4bfaa563a772003bc6ec;User ID=wdjbitzpwlgrugka;Password=cf8TViMUhgc5uHVwLLxiKsjFEVJfTATRsCyynT4SCK4mRaptPYdjYqyR4Ao8GGaN;");
 
             ISessionFactory sessionFactory = new SessionFactoryBuilder(new MappingScheme(), databaseConfiguration)
                 .Build();
